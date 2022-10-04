@@ -1,0 +1,697 @@
+html,
+body {
+    margin: 0 auto;
+    background-color: #dea50b;
+    font-family: 'Katibeh', cursive;
+    font-size: 2vw;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 10px;        
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: orange;    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 249, 249);
+  }
+
+header {
+    height: 1200px;
+    width: 100%;
+}
+
+nav {
+    height: 300px;
+    font-family: 'Aladin', cursive;
+}
+
+.divTopNav {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    background-image: url(img/Layer.png);
+    background-size: revert;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.divButtonNav {
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.logo {
+    width: 80%;
+    margin: 2%;
+    animation: myAnim 4s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.divTopNav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin: 1%;
+    
+}
+
+.divLogo {
+    width: 15%;
+}
+
+.divA {
+    width: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+}
+
+.black {
+    display: flex;
+    width: 80%;
+    background-color: black;
+    height: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5vw;
+    font-family: 'Aladin', cursive; 
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(img/vector.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.divBottonHeader {
+    width: 100%;
+    display: flex;
+    height: 75%;
+}
+
+.leftdivBottonHeader {
+    width: 24%;
+    background-image: url(img/image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 33%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.centrdivBottonHeader {
+    width: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightdivBottonHeader {
+    width: 20%;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h6 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.popcorn1 {
+    background-image: url(img/popconr1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    width: 10%;
+    height: 5%;
+}
+
+.popcorn2 {
+    background-image: url(img/popconr2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    width: 25%;
+    height: 5%;
+}
+
+.toprightdivBottonHeader {
+    background-image: url(img/shape.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    width: 60%;
+    height: 25%;
+}
+
+.buttonrightdivBottonHeader {
+    background-image: url(img/image2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    width: 100%;
+    height: 26%;
+}
+
+.noName {
+    width: 50%;
+    height: 35%;
+    background-image: url(img/popconr3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.noName1 {
+    width: 98%;
+    height: 19%;
+    background-image: url(img/popconr4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.logo2{
+    width: 40vw;
+}
+
+.Logo2-1{
+    animation: myAnim1 7s ease 4s infinite normal forwards;
+}
+@keyframes myAnim1 {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+}
+
+.leftSection2 {
+    width: 50%;
+    background-image: url(img/image3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+}
+
+.rightSection2 {
+    width: 50%;
+}
+
+.topRightSection2 {
+    display: flex;
+    height: 50%;
+    margin: 2%;
+}
+
+.oh {
+    width: 20vw;
+    background-image: url(img/vector3.png);
+    height: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+
+.ziro {
+    width: 20vw;
+    height: 30vw;
+    background-image: url(img/vector2.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.h2q {
+    font-size: 3vw;
+    margin: 0 0 0 10%;
+}
+
+.forH2 {
+    background-color: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    height: 8vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+}
+
+.section3 {
+    height: 800px;
+}
+
+.topSection3 {
+    height: 15%;
+    display: flex;
+}
+
+.topSection3 div {
+    width: 33%;
+    height: 40%;
+}
+
+
+.buttonSection3 {
+    height: 70%;
+    display: flex;
+}
+
+.leftSection3,
+.rightSection3 {
+
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.centrSection3 {
+    width: 70%;
+    height: 100%;
+    background-image: url(img/image4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.leftSection4,
+.rightSection4 {
+    width: 25%;
+}
+
+.centrSection4 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.rightSection4 {
+    background-image: url(img/image5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.leftSection4 {
+    background-image: url(img/shape2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.rotate {
+    transform: rotate(15deg);
+    color: black;
+    position: relative;
+    top: 171px;
+    left: 34%;
+    font-size: 2.2vw;
+}
+
+input {
+    margin: 1%;
+    padding: 1% 2%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    height: 2vw;
+    width: 10vw;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+    margin: 1%;
+    padding: 1% 2%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    height: 3vw;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.centrSection4 h2 {
+    text-transform: uppercase;
+}
+
+.section5 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.leftSection5 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+}
+
+.leftSection5 span {
+    color: white;
+}
+
+.rightSection5 {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+}
+
+.pros20 {
+    background-image: url(img/image6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    height: 80%;
+    width: 100%;
+}
+
+.forH2-1 {
+    background-color: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    height: 8vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+
+.section6 {
+    width: 100%;
+    height: 700px;
+}
+
+.topSection6 {
+    height: 86%;
+    display: flex;
+    width: 100%;
+}
+
+.buttonSection6 {
+    height: 10%;
+    text-align: center;
+}
+
+.rightTopSection6,
+.centrTopSection6,
+.leftTopSection6 {
+    height: 100%;
+    width: 34%;
+}
+
+.moviTop {
+    height: 50%;
+    background-image: url(img/shape3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.logo4 {
+    background-image: url(img/Logo4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    height: 70%;
+    animation: myAnim2 5s ease 2s infinite normal forwards;
+}
+
+@keyframes myAnim2 {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.button20 {
+    background-image: url(img/image7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    height: 40%;
+}
+
+.centrTopSection6 h2 {
+    text-align: center;
+}
+
+.top80{
+    height: 60%;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+}
+
+.footerTop {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.footerTop div {
+    background-color: black;
+    color: white;
+    width: 90%;
+}
+
+
+.footerBotton {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.leftfooterBotton {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Aladin', cursive;
+}
+
+.leftfooterBotton a {
+    color: black;
+    text-decoration: none;
+    margin: 3%;
+}
+
+.rightfooterBotton {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.rightfooterBotton h2{
+text-align: center;
+}
+
+.rightfooterBotton p {
+    text-align: left;
+}
+
+.divLogo5 {
+    background-image: url(img/Logo5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    height: 100%;
+}
+
+.centrfooterBotton {
+    width: 43%;
+    height: 100%;
+}
+
+.togle{
+    color: red;
+}
+
+
+a {
+    display: inline-block;
+    position: relative;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+a:hover::after {
+    width: 100%;
+    left: 0;
+}
